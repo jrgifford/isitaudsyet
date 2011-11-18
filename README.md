@@ -6,6 +6,8 @@ The site is simple - some would say too simple.
 
 the whole idea is that it tells you, quickly, "Is it UDS yet?!".
 
+(for those that don't know: [UDS=Ubuntu Developer Summit](http://uds.ubuntu.com/), the twice yearly developer get-together to plan the next release of Ubuntu)
+
 And it does this very nicely.
 
 Credits:

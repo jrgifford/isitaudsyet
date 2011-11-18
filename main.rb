@@ -25,14 +25,15 @@ __END__
 @@ layout
 %html
   %head
-    %title Is it UDS-Q yet?
+    %title Is time for UDS yet?
     %link{:type => 'text/css', :rel => 'stylesheet', :href => '/screen.css'}
     %link{:type => 'text/css', :rel => 'stylesheet', :href => 'http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin'}
+    %link{:type => 'text/javascript', :rel => 'javascript', :href => '/google-a.js'}
 
   = yield
 
 @@ show_yes
-%h1 YES
+  %h1 YES
 
 @@ show_no
 %div#no

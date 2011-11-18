@@ -5,8 +5,8 @@ require 'haml'
 set :public_folder, File.dirname(__FILE__) + '/static'
 
 
-START_DATE = Date.parse("2012-1-11") unless defined?(START_DATE)
-END_DATE = Date.parse("2012-1-13") unless defined?(END_DATE)
+START_DATE = Date.parse("2012-4-11") unless defined?(START_DATE)
+END_DATE = Date.parse("2012-4-12") unless defined?(END_DATE)
 
 
 get '/' do
@@ -25,13 +25,15 @@ __END__
 @@ layout
 %html
   %head
-    %title is it codemash yet?
+    %title Is t UDS-Q yet?
     %link{:type => 'text/css', :rel => 'stylesheet', :href => '/screen.css'}
+    %link{:type => 'text/css', :rel => 'stylesheet', :href => 'http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin'}
+
   = yield
 
 @@ show_yes
-%h1 Yes
+%h1 YES
 
 @@ show_no
 %div#no
-  %h1 No
+  %h1 NO

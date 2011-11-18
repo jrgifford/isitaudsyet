@@ -25,7 +25,7 @@ __END__
 @@ layout
 %html
   %head
-    %title Is t UDS-Q yet?
+    %title Is it UDS-Q yet?
     %link{:type => 'text/css', :rel => 'stylesheet', :href => '/screen.css'}
     %link{:type => 'text/css', :rel => 'stylesheet', :href => 'http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin'}
 

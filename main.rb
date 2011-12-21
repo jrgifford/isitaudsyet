@@ -5,8 +5,8 @@ require 'haml'
 set :public_folder, File.dirname(__FILE__) + '/static'
 
 
-START_DATE = Date.parse("2012-4-11") unless defined?(START_DATE)
-END_DATE = Date.parse("2012-4-12") unless defined?(END_DATE)
+START_DATE = Date.parse("2012-5-7") unless defined?(START_DATE)
+END_DATE = Date.parse("2012-5-11") unless defined?(END_DATE)
 
 
 get '/' do
